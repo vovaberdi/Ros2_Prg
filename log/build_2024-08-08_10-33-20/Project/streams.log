@@ -1,0 +1,24 @@
+[0.506s] Invoking command in '/home/user/build/Project': _=/usr/bin/env /usr/bin/cmake /home/user/catkin_ws/src -DCMAKE_INSTALL_PREFIX=/home/user/install/Project
+[0.922s] -- The C compiler identification is GNU 9.3.0
+[1.234s] -- The CXX compiler identification is GNU 9.3.0
+[1.304s] -- Check for working C compiler: /usr/bin/cc
+[1.802s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.802s] -- Detecting C compiler ABI info
+[2.302s] -- Detecting C compiler ABI info - done
+[2.406s] -- Detecting C compile features
+[2.410s] -- Detecting C compile features - done
+[2.419s] -- Check for working CXX compiler: /usr/bin/c++
+[2.967s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.997s] -- Detecting CXX compiler ABI info
+[3.421s] -- Detecting CXX compiler ABI info - done
+[3.519s] -- Detecting CXX compile features
+[3.520s] -- Detecting CXX compile features - done
+[4.831s] CMake Error at CMakeLists.txt:65 (message):
+[4.832s]   find_package(catkin) failed.  catkin was neither found in the workspace nor
+[4.832s]   in the CMAKE_PREFIX_PATH.  One reason may be that no ROS setup.sh was
+[4.832s]   sourced before.
+[4.832s] 
+[4.832s] 
+[4.845s] -- Configuring incomplete, errors occurred!
+[4.845s] See also "/home/user/build/Project/CMakeFiles/CMakeOutput.log".
+[4.847s] Invoked command in '/home/user/build/Project' returned '1': _=/usr/bin/env /usr/bin/cmake /home/user/catkin_ws/src -DCMAKE_INSTALL_PREFIX=/home/user/install/Project

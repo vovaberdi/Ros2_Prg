@@ -1,0 +1,21 @@
+[0.081s] Invoking command in '/home/user/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/user/install/turtlebot3_navigation2
+[0.922s] -- The C compiler identification is GNU 9.3.0
+[1.351s] -- The CXX compiler identification is GNU 9.3.0
+[1.362s] -- Check for working C compiler: /usr/bin/cc
+[1.823s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.825s] -- Detecting C compiler ABI info
+[2.254s] -- Detecting C compiler ABI info - done
+[2.359s] -- Detecting C compile features
+[2.360s] -- Detecting C compile features - done
+[2.370s] -- Check for working CXX compiler: /usr/bin/c++
+[2.887s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.890s] -- Detecting CXX compiler ABI info
+[3.247s] -- Detecting CXX compiler ABI info - done
+[3.329s] -- Detecting CXX compile features
+[3.336s] -- Detecting CXX compile features - done
+[3.356s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.554s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.245s] -- Configuring done
+[5.248s] -- Generating done
+[5.250s] -- Build files have been written to: /home/user/build/turtlebot3_navigation2

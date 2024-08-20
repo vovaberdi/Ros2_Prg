@@ -1,0 +1,5 @@
+[console_scripts]
+odom_recorder = wall_follower.odom_recorder:main
+wall_finder = wall_follower.wall_finder:main
+wall_following = wall_follower.wall_following:main
+

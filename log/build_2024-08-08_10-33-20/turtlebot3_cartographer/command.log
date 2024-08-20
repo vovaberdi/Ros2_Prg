@@ -1,0 +1,1 @@
+Invoking command in '/home/user/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/user/install/turtlebot3_cartographer

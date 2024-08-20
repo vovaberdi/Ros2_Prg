@@ -1,0 +1,22 @@
+[0.088s] Invoking command in '/home/user/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/user/install/turtlebot3_description
+[0.846s] -- The C compiler identification is GNU 9.3.0
+[1.263s] -- The CXX compiler identification is GNU 9.3.0
+[1.347s] -- Check for working C compiler: /usr/bin/cc
+[1.794s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.796s] -- Detecting C compiler ABI info
+[2.165s] -- Detecting C compiler ABI info - done
+[2.197s] -- Detecting C compile features
+[2.197s] -- Detecting C compile features - done
+[2.201s] -- Check for working CXX compiler: /usr/bin/c++
+[2.654s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.658s] -- Detecting CXX compiler ABI info
+[3.072s] -- Detecting CXX compiler ABI info - done
+[3.104s] -- Detecting CXX compile features
+[3.105s] -- Detecting CXX compile features - done
+[3.168s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.438s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.438s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.037s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[5.672s] -- Configuring done
+[5.675s] -- Generating done
+[5.677s] -- Build files have been written to: /home/user/build/turtlebot3_description

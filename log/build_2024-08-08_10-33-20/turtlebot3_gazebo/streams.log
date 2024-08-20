@@ -1,0 +1,101 @@
+[0.084s] Invoking command in '/home/user/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/turtlebot3_ros2/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/install/turtlebot3_gazebo
+[0.839s] -- The C compiler identification is GNU 9.3.0
+[1.247s] -- The CXX compiler identification is GNU 9.3.0
+[1.325s] -- Check for working C compiler: /usr/bin/cc
+[1.666s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.672s] -- Detecting C compiler ABI info
+[2.223s] -- Detecting C compiler ABI info - done
+[2.254s] -- Detecting C compile features
+[2.254s] -- Detecting C compile features - done
+[2.259s] -- Check for working CXX compiler: /usr/bin/c++
+[2.737s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.743s] -- Detecting CXX compiler ABI info
+[3.236s] -- Detecting CXX compiler ABI info - done
+[3.264s] -- Detecting CXX compile features
+[3.265s] -- Detecting CXX compile features - done
+[3.272s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.434s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.434s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.142s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[5.164s] -- Checking for module 'bullet>=2.82'
+[5.347s] --   Found bullet, version 2.88
+[6.153s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[6.415s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[6.544s] -- Found assimp: /usr/include (found version "5.0.0") 
+[6.893s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.534s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[8.324s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[8.452s] -- Looking for ignition-math6 -- found version 6.8.0
+[8.480s] -- Searching for dependencies of ignition-math6
+[8.586s] -- Looking for OGRE...
+[8.586s] -- OGRE_PREFIX_WATCH changed.
+[8.593s] -- Checking for module 'OGRE'
+[8.620s] --   Found OGRE, version 1.9.0
+[8.845s] -- Found Ogre Ghadamon (1.9.0)
+[8.973s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.986s] -- Looking for OGRE_Paging...
+[8.997s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.997s] -- Looking for OGRE_Terrain...
+[9.005s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[9.005s] -- Looking for OGRE_Property...
+[9.014s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[9.015s] -- Looking for OGRE_RTShaderSystem...
+[9.024s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[9.024s] -- Looking for OGRE_Volume...
+[9.035s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[9.035s] -- Looking for OGRE_Overlay...
+[9.050s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[9.295s] -- Looking for ignition-math6 -- found version 6.8.0
+[9.304s] -- Looking for ignition-transport8 -- found version 8.2.0
+[9.305s] -- Searching for dependencies of ignition-transport8
+[9.345s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[9.381s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[9.386s] -- Checking for module 'libzmq >= 4'
+[9.537s] --   Found libzmq , version 4.3.2
+[9.612s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[9.733s] -- Checking for module 'uuid'
+[9.843s] --   Found uuid, version 2.34.0
+[9.917s] -- Found UUID: TRUE  
+[9.926s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[9.926s] -- Searching for dependencies of ignition-msgs5
+[9.980s] -- Looking for ignition-math6 -- found version 6.8.0
+[9.989s] -- Checking for module 'tinyxml2'
+[10.016s] --   Found tinyxml2, version 6.2.0
+[10.112s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[10.119s] -- Looking for ignition-common3 -- found version 3.13.1
+[10.120s] -- Searching for dependencies of ignition-common3
+[10.120s] -- Looking for dlfcn.h - found
+[10.122s] -- Looking for libdl - found
+[10.124s] -- Found DL: TRUE  
+[10.143s] -- Searching for <ignition-common3> component [graphics]
+[10.153s] -- Looking for ignition-common3-graphics -- found version 3.13.1
+[10.154s] -- Searching for dependencies of ignition-common3-graphics
+[10.155s] -- Looking for ignition-math6 -- found version 6.8.0
+[10.169s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[10.169s] -- Searching for dependencies of ignition-fuel_tools4
+[10.321s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[10.343s] -- Checking for module 'jsoncpp'
+[10.379s] --   Found jsoncpp, version 1.7.4
+[10.456s] -- Found JSONCPP: TRUE  
+[10.466s] -- Checking for module 'libzip'
+[10.494s] --   Found libzip, version 1.5.1
+[10.573s] -- Found ZIP: TRUE  
+[10.573s] -- Looking for ignition-common3 -- found version 3.13.1
+[10.574s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[10.582s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[10.587s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[10.649s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.671s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[10.862s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.916s] -- Found FastRTPS: /opt/ros/foxy/include  
+[11.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.238s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[11.360s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[11.447s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.449s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.451s] -- Found Threads: TRUE  
+[11.670s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[11.798s] -- Found tf2: 0.13.11 (/opt/ros/foxy/share/tf2/cmake)
+[11.902s] -- Configuring done
+[12.105s] -- Generating done
+[12.108s] -- Build files have been written to: /home/user/build/turtlebot3_gazebo

@@ -1,0 +1,2 @@
+Invoking command in '/home/user/build/Project': _=/usr/bin/env /usr/bin/cmake /home/user/catkin_ws/src -DCMAKE_INSTALL_PREFIX=/home/user/install/Project
+Invoked command in '/home/user/build/Project' returned '1': _=/usr/bin/env /usr/bin/cmake /home/user/catkin_ws/src -DCMAKE_INSTALL_PREFIX=/home/user/install/Project

@@ -1,0 +1,93 @@
+[0.105s] Invoking command in '/home/user/simulation_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy LD_LIBRARY_PATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install/turtlebot3_node
+[0.531s] -- The C compiler identification is GNU 9.3.0
+[0.851s] -- The CXX compiler identification is GNU 9.3.0
+[0.899s] -- Check for working C compiler: /usr/bin/cc
+[1.296s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.298s] -- Detecting C compiler ABI info
+[1.714s] -- Detecting C compiler ABI info - done
+[1.798s] -- Detecting C compile features
+[1.798s] -- Detecting C compile features - done
+[1.803s] -- Check for working CXX compiler: /usr/bin/c++
+[2.206s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.208s] -- Detecting CXX compiler ABI info
+[2.619s] -- Detecting CXX compiler ABI info - done
+[2.726s] -- Detecting CXX compile features
+[2.726s] -- Detecting CXX compile features - done
+[2.735s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.918s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.918s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.099s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/foxy/share/dynamixel_sdk/cmake)
+[4.114s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.337s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.910s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.042s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.801s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[5.824s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.054s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.235s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.242s] -- Looking for pthread.h
+[6.547s] -- Looking for pthread.h - found
+[6.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.847s] -- Looking for pthread_create in pthreads
+[7.208s] -- Looking for pthread_create in pthreads - not found
+[7.208s] -- Looking for pthread_create in pthread
+[7.542s] -- Looking for pthread_create in pthread - found
+[7.544s] -- Found Threads: TRUE  
+[8.235s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.524s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[8.640s] -- Found tf2: 0.13.11 (/opt/ros/foxy/share/tf2/cmake)
+[8.735s] -- Found tf2_ros: 0.13.11 (/opt/ros/foxy/share/tf2_ros/cmake)
+[10.326s] -- Found turtlebot3_msgs: 2.2.3 (/home/user/simulation_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[10.816s] -- Configuring done
+[10.902s] -- Generating done
+[10.908s] -- Build files have been written to: /home/user/simulation_ws/build/turtlebot3_node
+[10.926s] Invoked command in '/home/user/simulation_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy LD_LIBRARY_PATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install/turtlebot3_node
+[10.927s] Invoking command in '/home/user/simulation_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy LD_LIBRARY_PATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/turtlebot3_node -- -j8 -l8
+[11.059s] [35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[11.459s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[18.549s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[23.639s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[28.183s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[32.258s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[36.215s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[46.327s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[61.214s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[61.800s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[64.559s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[68.183s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[71.657s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[73.990s] [ 85%] Built target turtlebot3_node_lib
+[74.006s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[74.094s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[77.282s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[78.404s] [100%] Built target turtlebot3_ros
+[78.422s] Invoked command in '/home/user/simulation_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy LD_LIBRARY_PATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/turtlebot3_node -- -j8 -l8
+[78.518s] Invoking command in '/home/user/simulation_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy LD_LIBRARY_PATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/turtlebot3_node
+[78.531s] -- Install configuration: ""
+[78.531s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/param
+[78.531s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[78.532s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[78.532s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[78.532s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[78.550s] -- Set runtime path of "/home/user/simulation_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[78.550s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[78.550s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[78.551s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[78.551s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[78.551s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[78.552s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[78.553s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[78.553s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[78.553s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[78.553s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[78.554s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[78.554s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[78.554s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[78.554s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[78.555s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[78.555s] -- Installing: /home/user/simulation_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[78.559s] Invoked command in '/home/user/simulation_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/simulation_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy LD_LIBRARY_PATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/simulation_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/turtlebot3_node

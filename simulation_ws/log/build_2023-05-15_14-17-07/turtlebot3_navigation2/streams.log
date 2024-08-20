@@ -1,0 +1,53 @@
+[0.049s] Invoking command in '/home/user/simulation_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install/turtlebot3_navigation2
+[0.757s] -- The C compiler identification is GNU 9.3.0
+[1.354s] -- The CXX compiler identification is GNU 9.3.0
+[1.384s] -- Check for working C compiler: /usr/bin/cc
+[1.730s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.759s] -- Detecting C compiler ABI info
+[2.125s] -- Detecting C compiler ABI info - done
+[2.157s] -- Detecting C compile features
+[2.158s] -- Detecting C compile features - done
+[2.162s] -- Check for working CXX compiler: /usr/bin/c++
+[2.516s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.520s] -- Detecting CXX compiler ABI info
+[2.953s] -- Detecting CXX compiler ABI info - done
+[2.969s] -- Detecting CXX compile features
+[2.973s] -- Detecting CXX compile features - done
+[2.992s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.169s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.169s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.955s] -- Configuring done
+[4.956s] -- Generating done
+[4.956s] -- Build files have been written to: /home/user/simulation_ws/build/turtlebot3_navigation2
+[4.963s] Invoked command in '/home/user/simulation_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install/turtlebot3_navigation2
+[4.967s] Invoking command in '/home/user/simulation_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[5.121s] Invoked command in '/home/user/simulation_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[5.288s] Invoking command in '/home/user/simulation_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/turtlebot3_navigation2
+[5.319s] -- Install configuration: ""
+[5.320s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[5.320s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[5.320s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[5.320s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[5.320s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[5.321s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[5.321s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[5.325s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[5.329s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[5.329s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[5.330s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[5.330s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[5.330s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[5.331s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[5.331s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[5.332s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[5.332s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[5.332s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[5.333s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[5.333s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[5.333s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[5.333s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[5.375s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[5.386s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[5.386s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[5.387s] -- Installing: /home/user/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[5.393s] Invoked command in '/home/user/simulation_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/turtlebot3_navigation2

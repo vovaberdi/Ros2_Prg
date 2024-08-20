@@ -1,0 +1,49 @@
+[0.051s] Invoking command in '/home/user/simulation_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install/turtlebot3_cartographer
+[0.743s] -- The C compiler identification is GNU 9.3.0
+[1.297s] -- The CXX compiler identification is GNU 9.3.0
+[1.307s] -- Check for working C compiler: /usr/bin/cc
+[1.784s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.787s] -- Detecting C compiler ABI info
+[2.121s] -- Detecting C compiler ABI info - done
+[2.175s] -- Detecting C compile features
+[2.184s] -- Detecting C compile features - done
+[2.194s] -- Check for working CXX compiler: /usr/bin/c++
+[2.477s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.479s] -- Detecting CXX compiler ABI info
+[2.788s] -- Detecting CXX compiler ABI info - done
+[2.820s] -- Detecting CXX compile features
+[2.822s] -- Detecting CXX compile features - done
+[2.869s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.987s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.988s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.674s] -- Configuring done
+[4.679s] -- Generating done
+[4.681s] -- Build files have been written to: /home/user/simulation_ws/build/turtlebot3_cartographer
+[4.692s] Invoked command in '/home/user/simulation_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/simulation_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install/turtlebot3_cartographer
+[4.698s] Invoking command in '/home/user/simulation_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/turtlebot3_cartographer -- -j8 -l8
+[4.895s] Invoked command in '/home/user/simulation_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/simulation_ws/build/turtlebot3_cartographer -- -j8 -l8
+[5.109s] Invoking command in '/home/user/simulation_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/turtlebot3_cartographer
+[5.170s] -- Install configuration: ""
+[5.170s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[5.170s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[5.171s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[5.171s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[5.171s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[5.171s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[5.172s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[5.172s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[5.176s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[5.177s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[5.177s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[5.178s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[5.178s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[5.179s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[5.179s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[5.180s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[5.181s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[5.181s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[5.181s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[5.181s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[5.188s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[5.188s] -- Installing: /home/user/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[5.189s] Invoked command in '/home/user/simulation_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/simulation_ws/build/turtlebot3_cartographer
